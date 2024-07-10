@@ -1,0 +1,35 @@
+/* form{
+    border: 4px solid #fffdfd;
+} */
+.container{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+h2{
+    padding: 10px;
+}
+input[type=text],input[type=submit]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+input[type=checkbox]{
+    margin-top: 16px;
+}
+input[type=submit]{
+    background-color: green;
+    color: white;
+}
+.header{
+    height:650px ;
+    width:500px;
+    
+}
+input[type=submit]:hover{
+    background-color: rgb(32, 241, 81);
+}
